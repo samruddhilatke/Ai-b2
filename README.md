@@ -32,3 +32,11 @@ def IDDFS(city,visitedstack,endlimit):
    print("______")
    result=""
    visitedstack = [] 
+
+  def main():
+    visitedstack = []
+    IDDFS(start,visitedstack,9)
+    print("IDDFS Traversal from ", start, " to ",goal," is:")
+    print(result)
+main() 
+
